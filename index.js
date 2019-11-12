@@ -1,5 +1,5 @@
-let divide = (x,y)=> x/y;
-console.log(divide(2000,100));
+let divide = function() {return 2000/100;}
+console.log(divide());
 
 
 let square = x => Math.pow(x,2)
