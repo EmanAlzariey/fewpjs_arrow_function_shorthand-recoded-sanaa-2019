@@ -1,4 +1,4 @@
-let divide = function(x,y) {return x/y;}
+let divide = (x,y)=> x/y;
 console.log(divide(2000,100));
 
 
